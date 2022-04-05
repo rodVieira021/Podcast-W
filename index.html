@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Podcaster</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-header flex">
+        <div class="nav-left-container">
+          <div class="nav-links-container flex">
+            <h3>Podcaster.</h3>
+            <a data-pop="home" class="nav-links" href="#">Home </a>
+            <a data-pop="episodes" class="nav-links" href="#">Episodes </a>
+            <a data-pop="about" class="nav-links" href="#">About </a>
+            <a data-pop="reviews" class="nav-links" href="#">Reviews </a>
+            <a data-pop="contacts" class="nav-links" href="#">Contacts</a>
+          </div>
+
+          <div class="pop-wrapper">
+            <div class="nav-pop" id="home">
+              <ion-icon
+                data-closes="home"
+                class="icon-close"
+                name="close-outline"
+              ></ion-icon>
+              <ul class="ul-pop flex">
+                <li><a class="a-pop" href="#">home</a></li>
+                <li><a class="a-pop" href="#">home</a></li>
+                <li><a class="a-pop" href="#">home</a></li>
+                <li><a class="a-pop" href="#">home</a></li>
+                <li><a class="a-pop" href="#">home</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-pop" id="episodes">
+              <ion-icon
+                data-closes="episodes"
+                class="icon-close"
+                name="close-outline"
+              ></ion-icon>
+              <ul class="ul-pop flex">
+                <li><a class="a-pop" href="#">episodes</a></li>
+                <li><a class="a-pop" href="#">episodes</a></li>
+                <li><a class="a-pop" href="#">episodes</a></li>
+                <li><a class="a-pop" href="#">episodes</a></li>
+                <li><a class="a-pop" href="#">episodes</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-pop" id="about">
+              <ion-icon
+                data-closes="about"
+                class="icon-close"
+                name="close-outline"
+              ></ion-icon>
+              <ul class="ul-pop flex">
+                <li><a class="a-pop" href="#">about</a></li>
+                <li><a class="a-pop" href="#">about</a></li>
+                <li><a class="a-pop" href="#">about</a></li>
+                <li><a class="a-pop" href="#">about</a></li>
+                <li><a class="a-pop" href="#">about</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-pop" id="reviews">
+              <ion-icon
+                data-closes="reviews"
+                class="icon-close"
+                name="close-outline"
+              ></ion-icon>
+              <ul class="ul-pop flex">
+                <li><a class="a-pop" href="#">reviews</a></li>
+                <li><a class="a-pop" href="#">reviews</a></li>
+                <li><a class="a-pop" href="#">reviews</a></li>
+                <li><a class="a-pop" href="#">reviews</a></li>
+                <li><a class="a-pop" href="#">reviews</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-pop" id="contacts">
+              <ion-icon
+                data-closes="contacts"
+                class="icon-close"
+                name="close-outline"
+              ></ion-icon>
+              <ul class="ul-pop flex">
+                <li><a class="a-pop" href="#">contacts</a></li>
+                <li><a class="a-pop" href="#">contacts</a></li>
+                <li><a class="a-pop" href="#">contacts</a></li>
+                <li><a class="a-pop" href="#">contacts</a></li>
+                <li><a class="a-pop" href="#">contacts</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav-content">
+            <h2>
+              Get inside the scoop<br />
+              on today's fastest <br />growing startups
+            </h2>
+            <h3>
+              New episodes every week, with <strong>Michelle Cobbett</strong>
+            </h3>
+            <input
+              class="email-input"
+              type="email"
+              placeholder="Enter your email "
+            />
+            <button class="btn-email" type="button">Join the list</button>
+          </div>
+        </div>
+
+        <div class="nav-img-container flex j-c-c">
+          <div class="btn-form">
+            <a class="btn-form-it" href="#">Subscribe</a>
+          </div>
+          <div class="form-container">
+            <div class="form">
+              <a class="btn-form-it-x" href="#">&#10005;</a>
+              <span>bla</span>
+              <form
+                action="submit.php"
+                method="post"
+                name=""
+                id="myForm"
+                class=""
+                novalidate
+              >
+                <fieldset class="form-fieldset">
+                  <label for="f-name"></label>
+                  <input
+                    type="text"
+                    class="first-input fm-input"
+                    id="f-name"
+                    name="fname"
+                    placeholder="Enter your first name"
+                    minlength="4"
+                    required
+                  />
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                  <label for="f-name"></label>
+                  <input
+                    type="text"
+                    class="last-input fm-input"
+                    id="l-name"
+                    name="lname"
+                    placeholder="Enter your last name"
+                    minlength="4"
+                    required
+                  />
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                  <label for="e-mail"></label>
+                  <input
+                    type="email"
+                    class="email-input fm-input"
+                    id="e-mail"
+                    name="email"
+                    placeholder="Enter your email"
+                    minlength="4"
+                    required
+                  />
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                  <textarea
+                    class="fm-input"
+                    name="how"
+                    id=""
+                    placeholder="How did  you find out about Podcaster."
+                  ></textarea>
+                </fieldset>
+                <div class="submit-container flex j-c-c">
+                  <button type="submit" class="btn-submit" href="">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <img
+            class="nav-woman"
+            src="/img/woman-nav-bar.jpg"
+            alt="woman listening music"
+          />
+        </div>
+      </nav>
+    </header>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
