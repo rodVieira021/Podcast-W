@@ -48,3 +48,6 @@ btnSubX.addEventListener('click', function () {
   btnSub.style.display = 'block';
   blured.style.filter = 'blur(0px)';
 });
+
+
+//new
