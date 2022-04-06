@@ -10,11 +10,15 @@ dataOpeners.forEach((clk) => {
   clk.addEventListener('click', function (g) {
     for (let h = 0; h < navPop.length; h++) {
       const tab = navPop[h];
-      tab.classList.remove('pop-active');
+      
+      if (tab.classList.contains('pop-active')) {
+        tab.classList.remove('pop-active');
+        
+      }
     }
-    document.querySelector('.pop-wrapper').classList.add('pop-w');
+    // document.querySelector('.pop-wrapper').classList.add('pop-w');
     // show it/if statament if it is open, close it, if the closebtn is clicked--remove the class to close it
-    // remove transdition nav-pop and hide it disp none. none
+    // remove transition nav-pop and hide it disp none. none
 
     let targetTab = clk.getAttribute('data-pop');
     document.getElementById(targetTab).classList.add('pop-active');
@@ -29,6 +33,7 @@ dataClose.forEach((c) => {
     y.preventDefault();
   });
 });
+
 
 //FORM BUTTOM
 
@@ -50,5 +55,4 @@ btnSubX.addEventListener('click', function () {
 });
 
 
-//new
-//rodrigo
+

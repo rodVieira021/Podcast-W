@@ -91,6 +91,7 @@
   min-width: 450px;
 }
 
+
 .nav-pop {
   position: absolute;
   top: 50px;
@@ -100,7 +101,7 @@
   background-color: #efefef;
   transform: translateX(-1500px);
   /* transition: 0.3s ease; */
-  /* overflow: hidden; */
+ overflow: hidden;
 }
 
 .nav-pop ul {
