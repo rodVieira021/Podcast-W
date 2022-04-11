@@ -120,73 +120,6 @@
           <div class="btn-form">
             <a class="btn-form-it" href="#">Subscribe</a>
           </div>
-          <div class="form-container">
-            <div class="form">
-              <a class="btn-form-it-x" href="#">&#10005;</a>
-              <span>bla</span>
-              <form
-                action="submit.php"
-                method="post"
-                name=""
-                id="myForm"
-                class=""
-                novalidate
-              >
-                <fieldset class="form-fieldset">
-                  <label for="f-name"></label>
-                  <input
-                    type="text"
-                    class="first-input fm-input"
-                    id="f-name"
-                    name="fname"
-                    placeholder="Enter your first name"
-                    minlength="4"
-                    required
-                  />
-                </fieldset>
-
-                <fieldset class="form-fieldset">
-                  <label for="f-name"></label>
-                  <input
-                    type="text"
-                    class="last-input fm-input"
-                    id="l-name"
-                    name="lname"
-                    placeholder="Enter your last name"
-                    minlength="4"
-                    required
-                  />
-                </fieldset>
-
-                <fieldset class="form-fieldset">
-                  <label for="e-mail"></label>
-                  <input
-                    type="email"
-                    class="email-input fm-input"
-                    id="e-mail"
-                    name="email"
-                    placeholder="Enter your email"
-                    minlength="4"
-                    required
-                  />
-                </fieldset>
-
-                <fieldset class="form-fieldset">
-                  <textarea
-                    class="fm-input"
-                    name="how"
-                    id=""
-                    placeholder="How did  you find out about Podcaster."
-                  ></textarea>
-                </fieldset>
-                <div class="submit-container flex j-c-c">
-                  <button type="submit" class="btn-submit" href="">
-                    Submit
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
           <img
             class="nav-woman"
             src="/img/woman-nav-bar.jpg"
@@ -195,6 +128,74 @@
         </div>
       </nav>
     </header>
+    <div class="form-container">
+      <div class="form">
+        <a class="btn-form-it-x" href="#">&#10005;</a>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <form
+          action="submit.php"
+          method="post"
+          name=""
+          id="myForm"
+          class=""
+          novalidate
+        >
+          <fieldset class="form-fieldset">
+            <label for="f-name"></label>
+            <input
+              type="text"
+              class="first-input fm-input"
+              id="f-name"
+              name="fname"
+              placeholder="Enter your first name"
+              minlength="4"
+              required
+            />
+          </fieldset>
+
+          <fieldset class="form-fieldset">
+            <label for="f-name"></label>
+            <input
+              type="text"
+              class="last-input fm-input"
+              id="l-name"
+              name="lname"
+              placeholder="Enter your last name"
+              minlength="4"
+              required
+            />
+          </fieldset>
+
+          <fieldset class="form-fieldset">
+            <label for="e-mail"></label>
+            <input
+              type="email"
+              class="email-input fm-input"
+              id="e-mail"
+              name="email"
+              placeholder="Enter your email"
+              minlength="4"
+              required
+            />
+          </fieldset>
+
+          <fieldset class="form-fieldset">
+            <textarea
+              class="fm-input"
+              name="how"
+              id=""
+              placeholder="How did  you find out about Podcaster."
+            ></textarea>
+          </fieldset>
+          <div class="submit-container flex j-c-c">
+            <button type="submit" class="btn-submit" href="">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="overlay"></div>
     <script src="script.js"></script>
     <script
       type="module"
