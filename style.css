@@ -282,3 +282,102 @@ textarea {
   padding-left: 15px;
   outline: none;
 }
+
+/* MIDDLE */
+
+.img-ep {
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.mid-ep {
+  gap: 10px;
+}
+
+.mid-section {
+  width: 85%;
+  margin: 0 auto;
+  justify-items: center;
+  column-gap: 150px;
+  padding-top: 50px;
+}
+
+.mid-ep {
+  gap: 20px;
+}
+
+.ep-text {
+  width: 500px;
+  align-self: center;
+}
+
+.ep-container h2 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.ep-container h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.ep-container h4 {
+  color: rgb(0, 161, 0);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.ep-container p {
+  font-size: 15px;
+  color: rgb(111, 111, 111);
+  margin-bottom: 5px;
+}
+
+.ep-icon {
+  position: relative;
+  bottom: -7px;
+  font-size: 25px;
+  padding-right: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ep-icon:hover {
+  color: rgb(0, 161, 0);
+}
+
+.ep-list {
+  padding-top: 30px;
+}
+.ep-list h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.ep-li a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.ep-li a:hover {
+  border-bottom: 1px solid rgba(60, 60, 60, 0.339);
+}
+
+.ep-li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.li-icon {
+  position: relative;
+  bottom: -5px;
+  color: rgb(0, 161, 0);
+  font-size: 23px;
+  padding-right: 10px;
+}

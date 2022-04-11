@@ -15,7 +15,7 @@ body {
 .hidden {
   display: none;
 }
-
+/* FLEX */
 .flex {
   display: flex;
 }
@@ -28,4 +28,23 @@ body {
 
 .a-i-c {
   align-items: center;
+}
+
+
+/* GRID */
+
+.grid {
+  display: grid;
+}
+
+.grid-2col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4col {
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
