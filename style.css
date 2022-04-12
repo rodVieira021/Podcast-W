@@ -1,5 +1,5 @@
 .nav-header {
-  width: 100%;
+  min-width: 100vw;
 }
 
 .nav-left-container {
@@ -351,7 +351,11 @@ textarea {
 }
 
 .ep-list {
-  padding-top: 30px;
+  position: sticky;
+  top: 0;
+  height: 300px;
+  z-index: 100;
+  padding: 30px;
 }
 .ep-list h3 {
   font-size: 25px;
