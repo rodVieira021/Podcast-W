@@ -37,7 +37,9 @@
 .nav-links:hover {
   background-color: #222222;
 }
-
+.nav-content {
+  padding-top: 30px;
+}
 .nav-content h2 {
   font-size: 40px;
   line-height: 1.1;
@@ -85,7 +87,7 @@
 }
 
 .nav-woman {
- width: 100%;
+  width: 100%;
 }
 
 .nav-pop {
